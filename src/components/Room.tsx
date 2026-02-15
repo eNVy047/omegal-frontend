@@ -2,8 +2,8 @@ import { Device } from "mediasoup-client";
 import { useEffect, useRef, useState } from "react";
 import { Socket, io } from "socket.io-client";
 
-const URL = "http://localhost:3000";
-// const URL = "https://omega-backend-1.onrender.com";
+// const URL = "http://localhost:3000";
+const URL = "https://omega-backend-1.onrender.com";
 
 interface UserMetadata {
     name: string;
